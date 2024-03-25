@@ -1,1 +1,2 @@
-# streamlit_crie_12_aplicacoes_web_de_inteligencia_artificial
+# Streamlit: Crie 12 Aplicações Web de Inteligência Artificial
+
