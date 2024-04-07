@@ -85,7 +85,7 @@ if st.button("Processar"):
                        .cat
                        .categories
                        [predict_encoded][0])
-    
+
     st.markdown("---")
     if predict_decoder == "unacc":
         st.header(f":red[Resultado da Previsão: {predict_decoder}]")
