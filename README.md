@@ -21,5 +21,19 @@
 
 # Streamlit: Crie 12 Aplicações Web de Inteligência Artificial
 
+O Streamlit é uma ferramenta de código aberto que simplifica a criação de aplicativos web interativos a partir de scripts Python. Com uma sintaxe simples e intuitiva, os desenvolvedores podem transformar análises de dados em interfaces de usuário elegantes e personalizadas, sem a necessidade de conhecimento prévio em desenvolvimento web. Com uma variedade de componentes pré-construídos e integração com bibliotecas de visualização de dados populares, o Streamlit permite prototipagem rápida, análise interativa e compartilhamento de insights de maneira eficiente.
 
-Crie Aplicações Web de Inteligência Artificial sem Precisar Saber Nada de Programação Web. Inclui Tutorias sobre IA
+<h3>Roadmap</h3>
+
+
+<p id="roadmap"> 
+  <ul>
+    <h3>Aplicações</h3>
+    <p>
+    <li>👨🏾‍💻 <a href="./caso1_franquias/">1. Previsão de Custo para Abrir Franquia - Regressor (Algorítimo Regresão Linear)</a></li>
+    <li>👨🏾‍💻 <a href="./caso2_class_carros/">2. Previsão da Qualidade de Veículos - Classificação (Algorítimo Categorical Naive Bayes)</a></li>
+    <li>👨🏾‍💻 <a href="./python_basico/plotly_introducao.ipynb">Estimativa da Produção de Leite - Em Andamento ...</a></li>
+  </ul>
+</p>
+
+
