@@ -22,8 +22,7 @@ def load_data_and_model():
     X_encoded = (encoder
                  .fit_transform(
                      carros.drop("class", axis=1)
-                    )
-                )
+                    ))
     y = carros["class"].astype("category").cat.codes
 
     X_train, X_test, y_train, y_test = (
@@ -42,6 +41,7 @@ def load_data_and_model():
     acuracia = accuracy_score(y_test, y_pred)
 
     return encoder, modelo, acuracia, carros
+
 
 encoder, modelo, acuracia, carros = load_data_and_model()
 
