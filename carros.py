@@ -89,17 +89,16 @@ if st.button("Processar"):
     st.markdown("---")
     if predict_decoder == "unacc":
         st.header(f":red[Resultado da Previsão: {predict_decoder}]")
-        st.markdown(unacc)
+        st.markdown(f":orange[{unacc}]")
     elif (predict_decoder == "acc"):
         st.header(f":red[Resultado da Previsão: {predict_decoder}]")
-        st.markdown(acc)
+        st.markdown(f":orange[{acc}]")
     elif (predict_decoder == "good"):
         st.header(f":green[Resultado da Previsão: {predict_decoder}]")
-        st.markdown(good)
+        st.markdown(f":orange[{good}]")
     elif (predict_decoder == "vgood"):
         st.header(f":green[Resultado da Previsão: {predict_decoder}]")
-        st.markdown(vgood)
-
+        st.markdown(f":orange[{vgood}]")
 
 st.markdown("---")
 
