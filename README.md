@@ -23,6 +23,7 @@
 
 O Streamlit é uma ferramenta de código aberto que simplifica a criação de aplicativos web interativos a partir de scripts Python. Com uma sintaxe simples e intuitiva, os desenvolvedores podem transformar análises de dados em interfaces de usuário elegantes e personalizadas, sem a necessidade de conhecimento prévio em desenvolvimento web. Com uma variedade de componentes pré-construídos e integração com bibliotecas de visualização de dados populares, o Streamlit permite prototipagem rápida, análise interativa e compartilhamento de insights de maneira eficiente.
 
+
 <h3>Roadmap</h3>
 
 
