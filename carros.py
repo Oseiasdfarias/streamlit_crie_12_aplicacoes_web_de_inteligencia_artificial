@@ -87,14 +87,17 @@ if st.button("Processar"):
                        [predict_encoded][0])
     
     st.markdown("---")
-    st.header(f":red[Resultado da Previsão: {predict_decoder}]")
     if predict_decoder == "unacc":
+        st.header(f":red[Resultado da Previsão: {predict_decoder}]")
         st.markdown(unacc)
     elif (predict_decoder == "acc"):
+        st.header(f":red[Resultado da Previsão: {predict_decoder}]")
         st.markdown(acc)
     elif (predict_decoder == "good"):
-        st.markdown(unacc)
+        st.header(f":green[Resultado da Previsão: {predict_decoder}]")
+        st.markdown(good)
     elif (predict_decoder == "vgood"):
+        st.header(f":green[Resultado da Previsão: {predict_decoder}]")
         st.markdown(vgood)
 
 
