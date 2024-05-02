@@ -16,7 +16,7 @@ st.set_page_config(page_title=pg_title, layout="wide")
 
 # st.title(pg_title)
 
-new_title = f'<h1 style="font-family:sans-serif; color:Cyan; font-size: 30px;">{pg_title}</h1>'
+new_title = f'<h1 style="font-family:sans-serif; color:Cyan; font-size: 30px;">{pg_title}</h1>'  # noqa: E501
 st.markdown(new_title, unsafe_allow_html=True)
 
 with st.sidebar:
@@ -52,7 +52,7 @@ if uploarded_file is not None and processar:
         fig_previsao, ax = plt.subplots(figsize=(12, 5))
         ax = ts_data.plot(ax=ax)
         previsao.plot(ax=ax, style="r--")
-        sns.despine(offset=10, trim=True);
+        sns.despine(offset=10, trim=True)
 
         col1, col3 = st.columns([7, 4])
         with col1:
