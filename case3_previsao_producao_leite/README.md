@@ -22,6 +22,10 @@ A partir dos dados históricos é possivel predizer a produção de leite,
 os daos históricos foram obtidos mensalmente, então a predição é feita
 para meses futuros.
 
+<p align="center">
+  <img widht="40%" src="./utils/banner.png">
+</p>
+
 
 ### **Descrição do Modelo SARIMAX**
 
