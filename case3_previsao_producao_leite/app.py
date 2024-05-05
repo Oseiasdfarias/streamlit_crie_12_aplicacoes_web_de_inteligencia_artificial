@@ -72,3 +72,61 @@ if uploarded_file is not None and processar:
 
     except Exception as e:
         st.error(f"Erro ao processar os dados: {e}")
+
+
+st.markdown("---")
+
+st.markdown("### **Descrição**")
+
+descricao_pn = """
+    O Projeto implementa um modelo de previsão de produção de leite a partir
+    de dados históricos, para isso foi aplicado um modelo de previsão
+    de séries temporas chamado SARIMAX.
+
+    A partir dos dados históricos é possivel predizer a produção de leite,
+    os daos históricos foram obtidos mensalmente, então a predição é feita
+    para meses futuros.
+"""
+
+st.markdown(descricao_pn)
+
+st.markdown("---")
+
+st.markdown("### **Descrição do Modelo SARIMAX**")
+
+descricao = """O modelo SARIMAX (Seasonal AutoRegressive Integrated Moving
+Average with eXogenous factors) é uma extensão do modelo SARIMA
+(Seasonal AutoRegressive Integrated Moving Average) que permite
+incorporar variáveis exógenas, ou seja, fatores externos que podem
+influenciar a série temporal que está sendo analisada.
+
+#### Vamos quebrar isso em partes:
+
++ 1. Seasonal (Sazonal): Refere-se a padrões repetitivos ou ciclos que
+ocorrem em intervalos fixos de tempo, como sazonalidade anual em vendas
+de Natal ou sazonalidade mensal em dados climáticos.
+
++ 2. AutoRegressive (Auto-regressivo): Significa que a variável depende
+linearmente de seus próprios valores passados, ou seja, a previsão é
+uma função de observações passadas da série temporal.
+
++ 3. Integrated (Integrado): Refere-se à diferenciação da série temporal
+para torná-la estacionária, ou seja, remover tendências não
+estacionárias ou padrões de comportamento.
+
++ 4. Moving Average (Média Móvel): Refere-se ao uso de erros de previsão
+passados na previsão atual.
+
++ 5. eXogenous factors (fatores exógenos): São variáveis independentes
+que não estão dentro do sistema que está sendo modelado, mas que podem
+influenciar o comportamento da variável dependente. Por exemplo, se
+estamos modelando vendas de sorvete e queremos incorporar a temperatura
+ambiente como um fator exógeno, podemos usar SARIMAX.
+
+Em resumo, o modelo SARIMAX é uma técnica poderosa para modelar e
+prever séries temporais que levam em conta tanto padrões sazonais
+quanto fatores externos que podem influenciar os dados. Ele é
+amplamente utilizado em áreas como finanças, economia, meteorologia
+e análise de vendas, entre outros.
+"""
+st.markdown(descricao)
