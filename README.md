@@ -33,7 +33,7 @@ O Streamlit é uma ferramenta de código aberto que simplifica a criação de ap
     <p>
     <li>👨🏾‍💻 <a href="./caso1_franquias/">1. Previsão de Custo para Abrir Franquia - Regressor (Algorítimo Regresão Linear)</a></li>
     <li>👨🏾‍💻 <a href="./caso2_class_carros/">2. Previsão da Qualidade de Veículos - Classificação (Algorítimo Categorical Naive Bayes)</a></li>
-    <li>👨🏾‍💻 <a href="./python_basico/plotly_introducao.ipynb">Estimativa da Produção de Leite - Em Andamento ...</a></li>
+    <li>👨🏾‍💻 <a href="./case3_previsao_producao_leite/">Estimativa da Produção de Leite - Algoritmo SARIMAX</a></li>
   </ul>
 </p>
 
